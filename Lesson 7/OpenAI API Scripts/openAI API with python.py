@@ -13,7 +13,7 @@ resp = requests.post(
     json={
         "model": MODEL,
         "messages": [
-            {"role": "system", "content": "You are terse."},
+            {"role": "system", "content": "You are terse and impolite, nasty and dismissive."},
             {"role": "user", "content": "Give a 1-paragraph overview of Model Context Protocol."}
         ],
         "temperature": .2
