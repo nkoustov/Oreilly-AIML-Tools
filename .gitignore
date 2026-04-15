@@ -61,7 +61,7 @@ checkpoints/
 *.joblib
 *.pth
 *.ckpt
-data/
+data/*.csv
 datasets/
 
 # Environment variables
@@ -70,3 +70,10 @@ datasets/
 
 # Python version
 .python-version
+
+# from the original .gitignore
+Tools/
+logs/
+.ipynb_checkpoints/
+.DS_Store
+venv/
